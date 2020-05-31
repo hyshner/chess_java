@@ -5,15 +5,15 @@ import boardGame.Position;
 import chess.ChessPiece;
 import chess.Color;
 
-public class Hook extends ChessPiece {
+public class Rook extends ChessPiece {
 
-	public Hook(Board board, Color color) {
+	public Rook(Board board, Color color) {
 		super(board, color);
 	}
 
 	@Override
 	public String toString() {
-		return "H";
+		return "R";
 	}
 
 	@Override
